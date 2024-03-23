@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+:root {
+  --primary-color: #06070E;
+  --secondary-color: #BFC0C0;
+  --tertiary-color: #8C001A;
+  --quaternary-color: #dde0e0;
+
+  --purple-color-100: #7765E3;
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: "Switzer", sans-serif;
+  background-color: var(--primary-color);
+  color: var(--tertiary-color);
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+::-webkit-scrollbar {
+  width: 0.8rem;
+  height: 0.8rem;
+}
+
+::-webkit-scrollbar-track {
+  background-color: var(--primary-color);
+}
+
+::-webkit-scrollbar-thumb {
+  border-top-right-radius: 0.4rem;
+  border-top-left-radius: 0.4rem;
+  border-bottom-left-radius: 0.4rem;
+  border-bottom-right-radius: 0.4rem;
+  background-color: var(--secondary-color);
+}
+
+@media (max-width: 375px) {
+  :root {
+    font-size: 50%;
+  }
+}
+
+@media (min-width: 2560px) {
+  :root {
+    font-size: 75%;
+  }
+}
