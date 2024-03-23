@@ -16,6 +16,8 @@ export class BigCardComponent {
 
   @Input() cardDescription:String = "";
 
+  @Input() cardAutor:String = "";
+
   @Input() cardUrl:String = "";
 
 }

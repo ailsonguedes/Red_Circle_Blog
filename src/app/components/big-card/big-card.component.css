@@ -23,7 +23,7 @@
 .right__big-card__date {
   font-size: 1.6rem;
   font-weight: 400;
-  color: var(--secundary-color);
+  color: var(--secondary-color);
 }
 
 .right__big-card__title,
@@ -34,6 +34,12 @@
 
 .right__big-card__title {
   max-width: 57rem;
+}
+
+.right__big-card__autor {
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: var(--tertiary-color);
 }
 
 .right__big-card__title a {
